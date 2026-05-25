@@ -45,4 +45,13 @@ A dummy head node simplifies pointer management.
 
 🧱 Data Structure
 ListNode
+
 <img width="639" height="250" alt="image" src="https://github.com/user-attachments/assets/fd9bb42b-b6a4-4d6b-8f45-e5db326fa930" />
+
+🔗 Merge Function
+
+<img width="721" height="544" alt="image" src="https://github.com/user-attachments/assets/ea667765-6cb0-48c7-94b7-8802b6e8f2c4" />
+
+🖼️ Flowchart / Diagram
+Before Merge
+

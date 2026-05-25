@@ -19,15 +19,15 @@ Diagrams explaining the merge process
 Time & space complexity analysis
 
 🧠 Clarifying Questions
-Are SSNs guaranteed to be valid 9‑digit numbers?
+1. Are SSNs guaranteed to be valid 9‑digit numbers?
 
-Can either list be empty?
+2. Can either list be empty?
 
-Should duplicate SSNs be preserved?
+3. Should duplicate SSNs be preserved?
 
-Are both lists always sorted in ascending order?
+4. Are both lists always sorted in ascending order?
 
-Should the merge be performed in‑place (O(1) space)?
+5. Should the merge be performed in‑place (O(1) space)?
 
 🧩 Solution Approach
 This problem is equivalent to the merge step of merge sort, but applied to linked lists.

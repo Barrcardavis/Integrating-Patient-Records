@@ -49,6 +49,7 @@ ListNode
 <img width="639" height="250" alt="image" src="https://github.com/user-attachments/assets/fd9bb42b-b6a4-4d6b-8f45-e5db326fa930" />
 
 🔗 Merge Function
+
 <img width="639" height="544" alt="image" src="https://github.com/user-attachments/assets/0677e5e5-b678-4bf4-ac91-f95d1a5c05f7" />
 
 

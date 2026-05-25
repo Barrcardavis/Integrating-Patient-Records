@@ -49,9 +49,78 @@ ListNode
 <img width="639" height="250" alt="image" src="https://github.com/user-attachments/assets/fd9bb42b-b6a4-4d6b-8f45-e5db326fa930" />
 
 🔗 Merge Function
+<img width="639" height="544" alt="image" src="https://github.com/user-attachments/assets/0677e5e5-b678-4bf4-ac91-f95d1a5c05f7" />
 
-<img width="721" height="544" alt="image" src="https://github.com/user-attachments/assets/ea667765-6cb0-48c7-94b7-8802b6e8f2c4" />
+
 
 🖼️ Flowchart / Diagram
 Before Merge
 
+<img width="635" height="128" alt="image" src="https://github.com/user-attachments/assets/557fca65-9b1d-4dbd-bd34-09193cbb8eec" />
+
+
+Pointer Movement
+
+<img width="635" height="148" alt="image" src="https://github.com/user-attachments/assets/a5eabeb5-aee4-48ce-b13f-28eab61b4c4f" />
+
+After Merge
+
+<img width="637" height="106" alt="image" src="https://github.com/user-attachments/assets/a8ffb6b9-14b3-401c-8d78-e6b53fec882b" />
+
+🧪 Unit Tests (Jest)
+Normal Cases
+1. Interleaving SSNs
+
+2. One list entirely smaller
+
+3. Duplicate SSNs preserved
+
+Edge Cases
+1. list1 empty
+
+2. list2 empty
+
+3. both lists empty
+
+Tests are located in:
+
+<img width="634" height="105" alt="image" src="https://github.com/user-attachments/assets/f76281d8-152f-4588-898b-e9f7cb0b15c3" />
+
+⏱️ Time & Space Complexity
+Time Complexity: O(n + m)
+Each list is traversed once.
+
+Space Complexity: O(1)
+The merge is performed in‑place, reusing existing nodes.
+
+🎥 Video Requirements (for instructor)
+Live coding demonstration
+
+Show your face + screen
+
+Explain reasoning and pointer movement
+
+Present all 6 test cases
+
+Discuss time & space complexity
+
+Optional: optimization discussion
+
+Clear communication throughout
+
+📁 Repository Structure
+
+<img width="635" height="226" alt="image" src="https://github.com/user-attachments/assets/eff1d550-b605-42de-9e63-26d313555a55" />
+
+✅ Summary
+This project demonstrates the ability to:
+
+Work with linked lists
+
+Merge sorted data structures
+
+Write clean, testable code
+
+Communicate algorithmic reasoning
+
+Analyze time and space complexity

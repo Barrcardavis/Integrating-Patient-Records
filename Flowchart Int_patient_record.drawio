@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Merge Flowchart" id="tYPhJj2LOAM8pzozSegK">
+    <mxGraphModel dx="1301" dy="1101" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CAibrQUZ48EyH8-kN7Sy-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Start Merge Process" vertex="1">
+          <mxGeometry height="80" width="180" x="310" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="CAibrQUZ48EyH8-kN7Sy-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Create dummy head node&#xa;current = dummy" vertex="1">
+          <mxGeometry height="80" width="220" x="290" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CAibrQUZ48EyH8-kN7Sy-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="p1 = list1 head&#xa;p2 = list2 head" vertex="1">
+          <mxGeometry height="80" width="220" x="290" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="CAibrQUZ48EyH8-kN7Sy-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="p1 != null AND p2 != null?" vertex="1">
+          <mxGeometry height="100" width="220" x="290" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="CAibrQUZ48EyH8-kN7Sy-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Compare p1.ssn and p2.ssn" vertex="1">
+          <mxGeometry height="80" width="220" x="290" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="CAibrQUZ48EyH8-kN7Sy-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="If p1.ssn ≤ p2.ssn&#xa;Attach p1&#xa;p1 = p1.next" vertex="1">
+          <mxGeometry height="100" width="220" x="90" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="CAibrQUZ48EyH8-kN7Sy-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Else&#xa;Attach p2&#xa;p2 = p2.next" vertex="1">
+          <mxGeometry height="100" width="220" x="490" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="CAibrQUZ48EyH8-kN7Sy-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="current = current.next" vertex="1">
+          <mxGeometry height="80" width="220" x="290" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="CAibrQUZ48EyH8-kN7Sy-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="If p1 != null&#xa;Attach remainder of p1" vertex="1">
+          <mxGeometry height="80" width="220" x="90" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="CAibrQUZ48EyH8-kN7Sy-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="If p2 != null&#xa;Attach remainder of p2" vertex="1">
+          <mxGeometry height="80" width="220" x="490" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="CAibrQUZ48EyH8-kN7Sy-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Return dummy.next" vertex="1">
+          <mxGeometry height="80" width="180" x="310" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="CAibrQUZ48EyH8-kN7Sy-12" edge="1" parent="1" source="CAibrQUZ48EyH8-kN7Sy-1" target="CAibrQUZ48EyH8-kN7Sy-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CAibrQUZ48EyH8-kN7Sy-13" edge="1" parent="1" source="CAibrQUZ48EyH8-kN7Sy-2" target="CAibrQUZ48EyH8-kN7Sy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CAibrQUZ48EyH8-kN7Sy-14" edge="1" parent="1" source="CAibrQUZ48EyH8-kN7Sy-3" target="CAibrQUZ48EyH8-kN7Sy-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CAibrQUZ48EyH8-kN7Sy-15" edge="1" parent="1" source="CAibrQUZ48EyH8-kN7Sy-4" target="CAibrQUZ48EyH8-kN7Sy-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CAibrQUZ48EyH8-kN7Sy-16" edge="1" parent="1" source="CAibrQUZ48EyH8-kN7Sy-5" target="CAibrQUZ48EyH8-kN7Sy-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CAibrQUZ48EyH8-kN7Sy-17" edge="1" parent="1" source="CAibrQUZ48EyH8-kN7Sy-5" target="CAibrQUZ48EyH8-kN7Sy-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CAibrQUZ48EyH8-kN7Sy-18" edge="1" parent="1" source="CAibrQUZ48EyH8-kN7Sy-6" target="CAibrQUZ48EyH8-kN7Sy-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CAibrQUZ48EyH8-kN7Sy-19" edge="1" parent="1" source="CAibrQUZ48EyH8-kN7Sy-7" target="CAibrQUZ48EyH8-kN7Sy-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CAibrQUZ48EyH8-kN7Sy-20" edge="1" parent="1" source="CAibrQUZ48EyH8-kN7Sy-8" target="CAibrQUZ48EyH8-kN7Sy-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CAibrQUZ48EyH8-kN7Sy-21" edge="1" parent="1" source="CAibrQUZ48EyH8-kN7Sy-4" target="CAibrQUZ48EyH8-kN7Sy-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CAibrQUZ48EyH8-kN7Sy-22" edge="1" parent="1" source="CAibrQUZ48EyH8-kN7Sy-4" target="CAibrQUZ48EyH8-kN7Sy-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CAibrQUZ48EyH8-kN7Sy-23" edge="1" parent="1" source="CAibrQUZ48EyH8-kN7Sy-9" target="CAibrQUZ48EyH8-kN7Sy-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CAibrQUZ48EyH8-kN7Sy-24" edge="1" parent="1" source="CAibrQUZ48EyH8-kN7Sy-10" target="CAibrQUZ48EyH8-kN7Sy-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
